@@ -1,0 +1,5 @@
+#!/Users/richardsonsaintbonheur/Documents/ML_Algorithms/Demand_Forecasting/store_item_demand_forecasting/store_item_demand_forecasting/bin/python3.12
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

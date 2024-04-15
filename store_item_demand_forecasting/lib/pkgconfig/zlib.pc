@@ -1,0 +1,13 @@
+prefix=/Users/richardsonsaintbonheur/Documents/ML_Algorithms/Demand_Forecasting/store_item_demand_forecasting/store_item_demand_forecasting
+exec_prefix=/Users/richardsonsaintbonheur/Documents/ML_Algorithms/Demand_Forecasting/store_item_demand_forecasting/store_item_demand_forecasting
+libdir=/Users/richardsonsaintbonheur/Documents/ML_Algorithms/Demand_Forecasting/store_item_demand_forecasting/store_item_demand_forecasting/lib
+sharedlibdir=/Users/richardsonsaintbonheur/Documents/ML_Algorithms/Demand_Forecasting/store_item_demand_forecasting/store_item_demand_forecasting/lib
+includedir=/Users/richardsonsaintbonheur/Documents/ML_Algorithms/Demand_Forecasting/store_item_demand_forecasting/store_item_demand_forecasting/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
